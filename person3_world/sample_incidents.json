@@ -1,0 +1,122 @@
+[
+  {
+    "incident_id": "INC-001",
+    "type": "Traffic_Jam",
+    "affected_segment_id": "B-C",
+    "severity": 2,
+    "start_time": "2025-12-20T08:15:00Z",
+    "duration_min": 90,
+    "effects": {
+      "traffic_level_change": 2,
+      "risk_level_add": 0.1,
+      "block_segment": false,
+      "base_time_multiplier": 1.4
+    },
+    "notes": "morning rush + unexpected civilian jam"
+  },
+  {
+    "incident_id": "INC-002",
+    "type": "Landslide",
+    "affected_segment_id": "C-D",
+    "severity": 3,
+    "start_time": "2025-12-20T09:40:00Z",
+    "duration_min": 240,
+    "effects": {
+      "traffic_level_change": 0,
+      "risk_level_add": 1.0,
+      "block_segment": true,
+      "base_time_multiplier": 1.0
+    },
+    "notes": "severe landslide blocks segment"
+  },
+  {
+    "incident_id": "INC-003",
+    "type": "Flooding",
+    "affected_segment_id": "E-C",
+    "severity": 2,
+    "start_time": "2025-12-21T02:30:00Z",
+    "duration_min": 360,
+    "effects": {
+      "traffic_level_change": 1,
+      "risk_level_add": 0.5,
+      "block_segment": false,
+      "base_time_multiplier": 1.5
+    },
+    "notes": "flash flooding affecting low-lying supply route"
+  },
+  {
+    "incident_id": "INC-004",
+    "type": "Accident",
+    "affected_segment_id": "F-G",
+    "severity": 1,
+    "start_time": "2025-12-20T07:10:00Z",
+    "duration_min": 45,
+    "effects": {
+      "traffic_level_change": 1,
+      "risk_level_add": 0.1,
+      "block_segment": false,
+      "base_time_multiplier": 1.3
+    },
+    "notes": "minor accident, lane partially blocked"
+  },
+  {
+    "incident_id": "INC-005",
+    "type": "Border_Closure",
+    "affected_segment_id": "H-D",
+    "severity": 3,
+    "start_time": "2025-12-20T12:00:00Z",
+    "duration_min": 720,
+    "effects": {
+      "traffic_level_change": 2,
+      "risk_level_add": 0.5,
+      "block_segment": true,
+      "base_time_multiplier": 1.0
+    },
+    "notes": "temporary border closure due to security"
+  },
+  {
+    "incident_id": "INC-006",
+    "type": "Civil_Unrest",
+    "affected_segment_id": "B-G",
+    "severity": 2,
+    "start_time": "2025-12-20T17:30:00Z",
+    "duration_min": 180,
+    "effects": {
+      "traffic_level_change": 2,
+      "risk_level_add": 0.6,
+      "block_segment": false,
+      "base_time_multiplier": 1.6
+    },
+    "notes": "protests near town — expect high disruption"
+  },
+  {
+    "incident_id": "INC-007",
+    "type": "Roadwork_Close",
+    "affected_segment_id": "A-B",
+    "severity": 1,
+    "start_time": "2025-12-21T01:00:00Z",
+    "duration_min": 720,
+    "effects": {
+      "traffic_level_change": 1,
+      "risk_level_add": 0.05,
+      "block_segment": false,
+      "base_time_multiplier": 1.2
+    },
+    "notes": "scheduled maintenance overnight"
+  },
+  {
+    "incident_id": "INC-008",
+    "type": "Weather_Event_Extreme",
+    "affected_segment_id": "G-D",
+    "severity": 3,
+    "start_time": "2025-12-22T03:00:00Z",
+    "duration_min": 600,
+    "effects": {
+      "traffic_level_change": 2,
+      "risk_level_add": 0.5,
+      "block_segment": true,
+      "base_time_multiplier": 1.6
+    },
+    "notes": "severe storm causing flooding and blockages"
+  }
+]
