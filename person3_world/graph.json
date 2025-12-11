@@ -21,6 +21,7 @@
       "max_load_tons": 40,
       "max_width_m": 4.5,
       "max_height_m": 4.0,
+      "allowed_convoy_classes": ["Light", "Medium", "Heavy"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.2
@@ -36,6 +37,7 @@
       "max_load_tons": 25,
       "max_width_m": 3.5,
       "max_height_m": 3.2,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "High",
       "weather_sensitivity": 0.5
@@ -51,6 +53,7 @@
       "max_load_tons": 30,
       "max_width_m": 4.0,
       "max_height_m": 3.5,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "Medium",
       "weather_sensitivity": 0.7
@@ -63,9 +66,10 @@
       "base_time_min": 40,
       "traffic_level": 0,
       "risk_level": 0.1,
-      "max_load_tons": 60,
-      "max_width_m": 4.8,
-      "max_height_m": 4.2,
+      "max_load_tons": 80,
+      "max_width_m": 5.0,
+      "max_height_m": 4.5,
+      "allowed_convoy_classes": ["Light", "Medium", "Heavy"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.1
@@ -78,9 +82,10 @@
       "base_time_min": 12,
       "traffic_level": 1,
       "risk_level": 0.2,
-      "max_load_tons": 50,
+      "max_load_tons": 70,
       "max_width_m": 5.0,
       "max_height_m": 4.5,
+      "allowed_convoy_classes": ["Light", "Medium", "Heavy"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.15
@@ -96,6 +101,7 @@
       "max_load_tons": 35,
       "max_width_m": 4.0,
       "max_height_m": 3.8,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "Medium",
       "weather_sensitivity": 0.3
@@ -111,6 +117,7 @@
       "max_load_tons": 20,
       "max_width_m": 3.2,
       "max_height_m": 3.0,
+      "allowed_convoy_classes": ["Light"],
       "is_blocked": false,
       "civil_impact": "High",
       "weather_sensitivity": 0.4
@@ -126,6 +133,7 @@
       "max_load_tons": 28,
       "max_width_m": 3.8,
       "max_height_m": 3.6,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "Medium",
       "weather_sensitivity": 0.6
@@ -141,6 +149,7 @@
       "max_load_tons": 45,
       "max_width_m": 4.6,
       "max_height_m": 4.0,
+      "allowed_convoy_classes": ["Light", "Medium", "Heavy"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.2
@@ -156,6 +165,7 @@
       "max_load_tons": 30,
       "max_width_m": 4.0,
       "max_height_m": 3.8,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "Medium",
       "weather_sensitivity": 0.35
@@ -171,6 +181,7 @@
       "max_load_tons": 50,
       "max_width_m": 5.0,
       "max_height_m": 4.5,
+      "allowed_convoy_classes": ["Light", "Medium", "Heavy"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.2
@@ -186,6 +197,7 @@
       "max_load_tons": 30,
       "max_width_m": 3.9,
       "max_height_m": 3.5,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "Low",
       "weather_sensitivity": 0.25
@@ -201,6 +213,7 @@
       "max_load_tons": 22,
       "max_width_m": 3.2,
       "max_height_m": 3.0,
+      "allowed_convoy_classes": ["Light", "Medium"],
       "is_blocked": false,
       "civil_impact": "High",
       "weather_sensitivity": 0.6

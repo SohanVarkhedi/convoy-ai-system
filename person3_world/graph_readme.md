@@ -12,6 +12,11 @@ Nodes:
 - G: Town (civilian area, high civil impact)
 - H: Forward Base (destination for many convoys)
 
+Allowed convoy classes:
+- "Light", "Medium", "Heavy" indicate which convoy types the segment supports.
+- Heavy convoys are allowed on the main logistics corridor: A → E → F → H → D
+- City/town segments (e.g., F→G, B→C, B→G) are restricted to Light or Medium only.
+
 Graph notes:
 - The graph includes alternate corridors: A→E→F→H→D and A→B→C→D (via C) and A→B→G→D.
 - Some segments have low max_load_tons (e.g., F→G, B→G) to force heavy convoys to choose alternate routes.
@@ -21,6 +26,7 @@ Graph notes:
 
 Usage:
 - Person 2 will load this JSON as the road graph for routing.
+- Person 2 must enforce `allowed_convoy_classes` when filtering edges for a convoy.
 - Person 3 will use this graph to place incidents in scenarios.
 - Person 1 can use the segment fields as features for synthetic data generation.
 
